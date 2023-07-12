@@ -12,14 +12,13 @@ public String  meth(){
 
     public static class B extends A{
         public String  meth(){
-          //  System.out.println("B");
+            //System.out.println("B");
             return "Method is overridden in Extendend class B";
         }
     }
     public static void main(String args[]){
         B obj = new B();
         obj.meth();
-        B obj1= new B();
-        obj1.meth();
+
     }
 }
